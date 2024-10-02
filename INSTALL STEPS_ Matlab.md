@@ -41,11 +41,13 @@ INSTALL STEPS:
 
 5. Once download is complete, then go to this link: [https://www.mathworks.com/solutions/partners/databricks.html\#](https://www.mathworks.com/solutions/partners/databricks.html#) and scroll down to the bottom and click the “Download the MATLAB Interface for Databricks” button.  
 6. Extract the compressed zipped folder **“matlab-databricks-v4-0-7-build-...”** inside Program Files\\ MATLAB. Once extracted you will see the **“matlab-databricks”** folder. Make sure the folders are in this folder and this hierarchy:  
-   ![][image2]  
+   ![][image2]   <img width="783" alt="Screenshot 2024-10-02 at 12 50 45 PM" src="https://github.com/user-attachments/assets/42cf0031-2c00-4e09-8cc9-3f10f31d1efb">
      
 7. Launch the Matlab application from local Desktop application through Search bar and make sure to **run as an administrator** for overwrite of files and folders  
 8. Go to the command line interface in matlab and type “ver” to verify you have all the dependencies necessary:  
-   ![][image3]  
+   ![][image3] <img width="725" alt="Screenshot 2024-10-02 at 12 51 39 PM" src="https://github.com/user-attachments/assets/03bc813d-ec73-4a06-81dd-08263e7ba2d7">
+
+
      
 9. Next you are ready to install the run time on databricks cluster:  
    1. Navigate to this path: C:\\Program Files\\MATLAB\\matlab-databricks\\Software\\MATLAB: cd ‘C:\\Program Files\\MATLAB\\matlab-databricks\\Software\\MATLAB’ (You should see in the top bar next to the folders icon the current directory path. Make sure that path looks like the path written above.  
@@ -53,12 +55,14 @@ INSTALL STEPS:
 10. You will be prompted with several questions for configuring the cluster spin up. Please reference my video here: TBD @time to see how I retrieved all the info from databricks  
     1. Enter authentication method, other methods can be configured manually following installation  
        Choose one of: Chain, DotDatabricksConnect, PAT, Basic, OauthM2M or OauthU2M, \[PAT\]: ![][image4]  
-    2.   
+    2.   <img width="778" alt="Screenshot 2024-10-02 at 12 52 04 PM" src="https://github.com/user-attachments/assets/c91de2fd-ae3d-4093-b338-9d0085017969">
+
 11. You will see your cluster appear in databricks   
 12. Next you will receive this question: Enter the local path to the downloaded zip file for this package (Point to the one on your local machine  
     1. E.g.: C:\\Users\\someuser\\Downloads\\matlab-databricks-v1.2.3\_Build\_A1234567.zip  
 13. A job will be created in Databricks automatically as shown below **(Make sure the job timeout is set to 30 minutes or greater to avoid timeout error)**  
-    1. ![][image5]  
+    1. ![][image5]  <img width="782" alt="Screenshot 2024-10-02 at 12 52 47 PM" src="https://github.com/user-attachments/assets/2f2684dc-17f5-420f-9f8c-25556a4bf4d8">
+
 14. Go to Workspace-\>Mathworks-\>4.0.7-\>runtime. Click on three dots and click “Copy URL/path and copy the full path  
 15. Go to  
 16. You now have a Databricks cluster with Matlab runtime installed. So now every time you launch it there is nothing you need to do. The cluster should have spark env variables and init script pointing to the shell file that was generated from the job  
