@@ -66,9 +66,7 @@ INSTALL STEPS:
 14. Go to Workspace-\>Mathworks-\>4.0.7-\>runtime. Click on three dots and click “Copy URL/path and copy the full path  
 15. Go to  
 16. You now have a Databricks cluster with Matlab runtime installed. So now every time you launch it there is nothing you need to do. The cluster should have spark env variables and init script pointing to the shell file that was generated from the job  
-17. TBD…. Calling Matlab functions in Databricks  
-18. 
-
+17/18. 
 There is currently no valid Databricks Connect library on the static classpath  
 The following Databricks Connect libraries are available:  
   1: /home/ubuntu/Desktop/matlab-databricks-v4-0-7-build-3e4140c2/matlab-databricks/Software/MATLAB/lib/jar/matlab-databricks-connectv2-14.3.3.jar
