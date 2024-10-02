@@ -36,8 +36,9 @@ INSTALL STEPS:
 
 	(FIGURE 1\)
 
-3. ![][image1]  
-4.   
+3. ![][image1] <img width="787" alt="Screenshot 2024-10-02 at 12 49 58 PM" src="https://github.com/user-attachments/assets/a7cbb575-3252-4410-aa0b-55fec9b20ce1">
+ 
+
 5. Once download is complete, then go to this link: [https://www.mathworks.com/solutions/partners/databricks.html\#](https://www.mathworks.com/solutions/partners/databricks.html#) and scroll down to the bottom and click the “Download the MATLAB Interface for Databricks” button.  
 6. Extract the compressed zipped folder **“matlab-databricks-v4-0-7-build-...”** inside Program Files\\ MATLAB. Once extracted you will see the **“matlab-databricks”** folder. Make sure the folders are in this folder and this hierarchy:  
    ![][image2]  
